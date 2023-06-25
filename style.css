@@ -1,0 +1,104 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(249, 250, 250);
+  color:black;
+}
+.upper{
+  height: 50%;
+  background-color: black;
+  color:rgba(196, 8, 8, 0.849);
+  display: flex;
+}
+.photo{
+  margin:40px;
+  padding: 20px;
+  width:50%;
+  display: inline-block;
+}
+#image{
+  width: 500px;
+  height: 90%;
+  padding:10px;
+  margin:10px;
+  margin-left: 30px;
+}
+.quote{
+  font-size: 40px;
+  margin-top: 100px;
+  margin-right: 50px;
+  text-align: center;
+}
+h1{
+  color:white;
+}
+.date{
+  color:rgba(255, 255, 0, 0.692);
+}
+hr{
+  background-color: none;
+  height :0px;
+  width:3%;
+  border-style: none;
+  border-top-style:dotted;
+  border-width:9px;
+  border-color: grey;
+  margin:50px auto 10px;
+}
+.middle{
+  justify-content: center;
+  text-align: center;
+  font-family:merriweather , serif;
+}
+.bio , .achieve{
+  padding:10px;
+  margin:10px;
+}
+.bio h2,.achieve h2{
+  padding-top:10px;
+  padding-bottom:10px;
+  /* background-color: rgb(117, 124, 126); */
+  font-size:30px;
+}
+.bio p,.achieve p{
+  width:60%;
+  margin: 10px auto;
+  font-size: 20px;
+}
+.bottom{
+  text-align: center;
+  background-color: rgb(43, 40, 40);
+  height:100px;
+}
+.bottom p{
+  padding-top:20px;
+  margin:10px auto;
+  color:green;
+  font-size: 20px;
+}
+.bottom h3{
+  padding-top:20px;
+  margin-top:10px;
+  color: white;
+}
+
+a{
+  text-decoration: none;
+  font-weight: 400;
+  color:rgb(36, 44, 148);
+}
+.bio p{
+  text-align:right;
+}
+.achieve p{
+  text-align: left;
+}
+.work{
+  color: rgb(161, 9, 9);
+}
